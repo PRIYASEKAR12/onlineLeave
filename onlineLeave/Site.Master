@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="onlineLeave.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div>
+                <h1>Welcome to Online Leave Management</h1>
+                <asp:HyperLink ID="HyperLink1" runat="server" Text="Login" NavigateUrl="~/Login.aspx"></asp:HyperLink>
+                <asp:HyperLink ID="HyperLink2" runat="server" Text="register" NavigateUrl="~/register.aspx"></asp:HyperLink>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
