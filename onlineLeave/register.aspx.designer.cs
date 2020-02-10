@@ -13,6 +13,24 @@ namespace onlineLeave {
     public partial class register {
         
         /// <summary>
+        /// hfEmployeeId control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField hfEmployeeId;
+        
+        /// <summary>
+        /// labelName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label labelName;
+        
+        /// <summary>
         /// getName control.
         /// </summary>
         /// <remarks>
@@ -40,6 +58,15 @@ namespace onlineLeave {
         protected global::System.Web.UI.WebControls.RegularExpressionValidator checkRegularName;
         
         /// <summary>
+        /// LabelDepartmentId control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelDepartmentId;
+        
+        /// <summary>
         /// getId control.
         /// </summary>
         /// <remarks>
@@ -56,6 +83,15 @@ namespace onlineLeave {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator checkRequiredId;
+        
+        /// <summary>
+        /// labelPhoneNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label labelPhoneNumber;
         
         /// <summary>
         /// getPhoneNumber control.
@@ -85,22 +121,76 @@ namespace onlineLeave {
         protected global::System.Web.UI.WebControls.RegularExpressionValidator checkRegularNumber;
         
         /// <summary>
-        /// getCity control.
+        /// labelGender control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList getCity;
+        protected global::System.Web.UI.WebControls.Label labelGender;
         
         /// <summary>
-        /// getGmail control.
+        /// getGender control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox getGmail;
+        protected global::System.Web.UI.WebControls.RadioButtonList getGender;
+        
+        /// <summary>
+        /// checkReqiredGender control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator checkReqiredGender;
+        
+        /// <summary>
+        /// labelDateOfBirth control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label labelDateOfBirth;
+        
+        /// <summary>
+        /// getDateOfBirth control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox getDateOfBirth;
+        
+        /// <summary>
+        /// checkRequiredDateOfBirth control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator checkRequiredDateOfBirth;
+        
+        /// <summary>
+        /// labelEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label labelEmail;
+        
+        /// <summary>
+        /// getEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox getEmail;
         
         /// <summary>
         /// checkRequiredGmail control.
@@ -121,6 +211,15 @@ namespace onlineLeave {
         protected global::System.Web.UI.WebControls.RegularExpressionValidator checkRegualGmail;
         
         /// <summary>
+        /// labelDesignation control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label labelDesignation;
+        
+        /// <summary>
         /// getDesignation control.
         /// </summary>
         /// <remarks>
@@ -139,12 +238,39 @@ namespace onlineLeave {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator checkRequiredDesignation;
         
         /// <summary>
-        /// submit control.
+        /// btnSave control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button submit;
+        protected global::System.Web.UI.WebControls.Button btnSave;
+        
+        /// <summary>
+        /// btnDelete control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnDelete;
+        
+        /// <summary>
+        /// btnClear control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnClear;
+        
+        /// <summary>
+        /// gridTable control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gridTable;
     }
 }

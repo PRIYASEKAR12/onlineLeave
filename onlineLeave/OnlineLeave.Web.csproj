@@ -83,7 +83,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EmployeeRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -121,6 +120,16 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineLeave.BL\OnlineLeave.BL.csproj">
+      <Project>{5aca63c8-96f8-4eb9-aeb4-f90994968eb4}</Project>
+      <Name>OnlineLeave.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OnlineLeave.Entity\OnlineLeave.Entity.csproj">
+      <Project>{27129DA2-9880-4261-9F7D-32D95AFE098A}</Project>
+      <Name>OnlineLeave.Entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

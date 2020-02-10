@@ -1,9 +1,6 @@
 ﻿using System;
-using onlineLeave;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
+using OnlineLeave.BL;
+using OnlineLeave.Entity;
 
 namespace onlineLeave
 {
@@ -17,10 +14,12 @@ namespace onlineLeave
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            LoginRepository loginRepository = new LoginRepository();
-            string username = userName.Text;
+            
+            string userChange = userName.Text;
             string password = Password.Text;
-            bool result = loginRepository.login(username, password);
+            LoginEntity loginEntity = new LoginEntity(userChange,password);
+            LoginBL login = new LoginBL();
+            bool result = login.login(userChange, password);
             if (result)
             {
                 Response.Write("Successfull");
